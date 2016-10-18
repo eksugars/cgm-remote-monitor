@@ -14,11 +14,11 @@ body {
   color: black;
 }
 
-.centeraligned {
+#.centeraligned {
   text-align:center;
 }
 
-#tabnav {
+ul#tabnav {
   text-align: left;
   margin: 1em 0 1em 0;
   font: bold 11px verdana, arial, sans-serif;
@@ -27,8 +27,11 @@ body {
   padding: 3px 10px 3px 10px;
 }
 
-#tabnav li{
+ul#tabnav li {
   display: inline;
+}
+
+ul#tabnav li{
   padding: 3px 4px;
   border: 1px solid #6c6;
   background-color: #cfc;
@@ -38,28 +41,11 @@ body {
   border-bottom: none;
 }
 
-#tabnav .selected  {
+ul#tabnav li.selected  {
   background: #fff;
 }
 
-#tabnav li:hover {
+ul#tabnav li:hover {
   background: #9f9;
   cursor:pointer;
-}
-
-.tooltip {
-  top: 0;
-  left: 0;
-  color: #444;
-  position: absolute;
-  text-align: left;
-  padding: 4px;
-  font-size: 14px;
-  line-height: 15px;
-  background: white;
-  border: 2px solid black;
-  border-radius: 8px;
-  float: right;
-  min-width: 150px;
-  max-width: 400px;
 }
